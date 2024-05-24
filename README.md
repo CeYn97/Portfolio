@@ -2,7 +2,7 @@
 
 Здесь я прикреплю ссылки на проеты в которых я принимал участие в разработке
 
-## [https://github.com/CeYn97/Giper.fm-project)
+## [https://github.com/CeYn97/Giper.fm-project](giper.fm project)
 **Хакатон IThub & giper.fm**
 
 Особенности:
