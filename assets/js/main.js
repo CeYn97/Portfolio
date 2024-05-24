@@ -108,3 +108,84 @@ function scrollActive() {
 }
 
 window.addEventListener("scroll", scrollActive);
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/Giper.fm-project";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event2");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/Web-app_Hackaton";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event3");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/daslef/pyramid3d-frontend";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event4");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/Weather-app";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event5");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/cardGameFinal";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event6");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/Game2048 ";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event7");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/SubmitOrder";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event8");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/Cull";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event9");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/IThub-tgbot";
+    });
+  });
+});
