@@ -2,58 +2,34 @@
 
 Здесь я прикреплю ссылки на проеты в которых я принимал участие в разработке
 
-## [https://github.com/CeYn97/Giper.fm-project](giper.fm-project)
-**Хакатон IThub & giper.fm**
+## [giper.fm-project](https://github.com/CeYn97/Giper.fm-project)
+**Корпортивное приложение для giper.fm**
 
-Особенности:
-* Визуализация данных. Работа с графиками.
-* Работа с WebSocket
-* Интеграция конференций Zoom
+## [Hack 3.0 WebApp](https://github.com/CeYn97/Web-app_Hackaton)
+**Web приложение для статуса оплаты СБП**
 
-## [Ch1ef](https://ch1ef.ru)
-**React.js**
+## [Pyramid-3d](https://github.com/daslef/pyramid3d-frontend)
+**Калькулятор 3D моделей**
 
-Внедрил функционал корзины и оформления заказа
+## [Weather App](https://github.com/CeYn97/Weather-app)
+**Приложение для просмотра погоды**
 
-## [Печать на шарах](http://print.zatey.ru/)
-**Front-end**
+## [Card Game](https://github.com/CeYn97/cardGameFinal)
+**Карточная игра на развитие памяти**
 
-Особенности:
-* Laravel
-* Canvas конструктор для печати
-* Адаптивность
+## [Game 2048](https://github.com/CeYn97/Game2048)
+**Плиточная игра для развития логики**
 
-## [SpaDream](https://spadream.ru/)
-**Front-end**
+## [WebApp orders](https://github.com/CeYn97/SubmitOrder)
+**WebApp для Tg бота, для отправки заявок**
 
-Особенности:
-* Адаптивность
-* Использование SVG спрайтов
+## [Calculator](https://github.com/CeYn97/Cull)
+**Калькулятор с дизайном**
 
-## [CourseHeaven](https://courseheaven.com/)
-**Front-end**
+## [Tg bot](https://github.com/CeYn97/IThub-tgbot)
+**Tg bot для Ithub с ответами на вопросы**
 
-Особенности:
-* Laravel
-* Компонентный подход
 
-## [Лендинг: Франчайзинг Стоммаркет](https://franchise.stommarket.ru/)
-**Front-end**
-
-Особенности:
-* Работа с анимацией
-
-## [Kapous](http://kapous.ru/)
-**Front-end**
-
-## Мобильное приложение Kapous
-**Front-end**
-
-[<img height="50" src="https://linkmaker.itunes.apple.com/assets/shared/badges/ru-ru/appstore-lrg-efcb5a04c3f3ab07b704da708819a614cca5ae1debda359f9f9841d6fed5de96.svg">](https://apps.apple.com/ru/app/kapous/id1475777360?mt=8)
-[<img height="50" src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png">](https://play.google.com/store/apps/details?id=com.kapous&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
-
-Особенности:
-* React Native
 
 ## Выступления/статьи/общественная деятельность
 * [Выступление на PiterCSS 11 с темой "Относительный CSS"](https://www.youtube.com/watch?v=xdhPX2llDeg)
