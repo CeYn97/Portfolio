@@ -29,13 +29,3 @@
 ## [Tg bot](https://github.com/CeYn97/IThub-tgbot)
 **Tg bot для Ithub с ответами на вопросы**
 
-
-
-## Выступления/статьи/общественная деятельность
-* [Выступление на PiterCSS 11 с темой "Относительный CSS"](https://www.youtube.com/watch?v=xdhPX2llDeg)
-### Хабрахабар
-* [Простая валидация формы без JS](https://habrahabr.ru/post/332804/)
-### Medium
-* [Псевдо-классы CSS которые вы не используете](https://medium.com/@vUdav/pseudo-class-css-caa2c6737b63)
-* [PlainTasks — удобный ToDo для Sublime Text](https://medium.com/@vUdav/plaintasks-todo-sublime-text-76e369133830)
-
