@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 document.getElementById("downloadBtn").addEventListener("click", function () {
   const a = document.createElement("a");
 
-  a.href = "./Untitled.pdf";
+  a.href = "./Resume.pdf";
 
   a.download = "Резюме";
 
@@ -207,7 +207,7 @@ document.getElementById("downloadBtn").addEventListener("click", function () {
 document.getElementById("downloadBtn2").addEventListener("click", function () {
   const a = document.createElement("a");
 
-  a.href = "./Untitled.pdf";
+  a.href = "./Resume.pdf";
 
   a.download = "Резюме";
 
