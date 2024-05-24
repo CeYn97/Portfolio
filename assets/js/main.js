@@ -189,3 +189,31 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
+
+document.getElementById("downloadBtn").addEventListener("click", function () {
+  const a = document.createElement("a");
+
+  a.href = "./Untitled.pdf";
+
+  a.download = "Резюме";
+
+  document.body.appendChild(a);
+
+  a.click();
+
+  document.body.removeChild(a);
+});
+
+document.getElementById("downloadBtn2").addEventListener("click", function () {
+  const a = document.createElement("a");
+
+  a.href = "./Untitled.pdf";
+
+  a.download = "Резюме";
+
+  document.body.appendChild(a);
+
+  a.click();
+
+  document.body.removeChild(a);
+});

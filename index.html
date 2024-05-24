@@ -51,8 +51,8 @@
           </ul>
         </div>
         <div class="nav-button">
-          <button class="btn">
-            Download CV <i class="uil uil-file-alt"></i>
+          <button class="btn" id="downloadBtn">
+            Скачать резюме <i class="uil uil-file-alt"></i>
           </button>
         </div>
         <div class="nav-menu-btn">
@@ -78,8 +78,10 @@
               </p>
             </div>
             <div class="featured-text-btn">
-              <button class="btn blue-btn">Написать мне</button>
-              <button class="btn">
+              <a class="btn blue-btn" href="mailto:ceyyyn97@gmail.com"
+                >Написать мне</a
+              >
+              <button class="btn" id="downloadBtn2">
                 Скачать резюме <i class="uil uil-file-alt"></i>
               </button>
             </div>
@@ -118,10 +120,10 @@
               <div class="about-info">
                 <h3>Знакомство со мной</h3>
                 <p>
-                  Я учу на данный момент html/css, имею минимальные знания в JS,
-                  а так же на разных проектах пробовал писать на React. Собирал
-                  проекты через Vite. Каждый день изучаю что-то новое и не
-                  планирую останавливаться !
+                  Начал изучать программирование 2 года назад, делал меленькие
+                  пет-проекты, игры и лендинги. На данный момент я плотно изучаю
+                  HTML/CSS, и немного JS. На проектах и хакатонах работал с
+                  React, Vite, Strapi и Supabase.
                 </p>
               </div>
             </div>
@@ -140,11 +142,32 @@
               </div>
               <div class="skills-box">
                 <div class="skills-header">
+                  <h3>Back-end</h3>
+                </div>
+                <div class="skills-list">
+                  <span>Strapi</span>
+                  <span>Supabase</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
                   <h3>Design</h3>
                 </div>
                 <div class="skills-list">
                   <span>Figma</span>
                   <span>Miro</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Soft skills</h3>
+                </div>
+                <div class="skills-list">
+                  <span>Пунктуальность</span>
+                  <span>Доведение задач до конца</span>
+                  <span>Принятие сложных решений</span>
+                  <span>Cпособность к самоанализу</span>
+                  <span>Командная работа</span>
                 </div>
               </div>
             </div>
@@ -161,47 +184,57 @@
             <div class="project-box card-event">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Hackaton IThub & giper.fm</h3>
-              <label>Корпортивное приложение</label>
+              <label class="cusor-clas">Корпортивное приложение</label>
             </div>
             <div class="project-box card-event2">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Hackaton IThub "Hack 3.0"</h3>
-              <label>Web приложение для статуса оплаты СБП</label>
+              <label class="cusor-clas" class="cusor-clas"
+                >Web приложение для статуса оплаты СБП</label
+              >
             </div>
             <div class="project-box card-event3">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Pyramid3d</h3>
-              <label>Калькулятор 3D моделей</label>
+              <label class="cusor-clas">Калькулятор 3D моделей</label>
             </div>
             <div class="project-box card-event4">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Weather App</h3>
-              <label>Приложение для просмотра погоды</label>
+              <label class="cusor-clas">Приложение для просмотра погоды</label>
             </div>
             <div class="project-box card-event5">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Card Game</h3>
-              <label>Карточная игра на развитие памяти</label>
+              <label class="cusor-clas"
+                >Карточная игра на развитие памяти</label
+              >
             </div>
             <div class="project-box card-event6">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Game 2048</h3>
-              <label>Плиточная игра для развития логики</label>
+              <label class="cusor-clas"
+                >Плиточная игра для развития логики</label
+              >
             </div>
             <div class="project-box card-event7">
               <i class="uil uil-briefcase-alt"></i>
               <h3>WebApp orders</h3>
-              <label>WebApp для Tg бота, для отправки заявок</label>
+              <label class="cusor-clas"
+                >WebApp для Tg бота, для отправки заявок</label
+              >
             </div>
             <div class="project-box card-event8">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Calculator</h3>
-              <label>Калькулятор с дизайном</label>
+              <label class="cusor-clas">Калькулятор с дизайном</label>
             </div>
             <div class="project-box card-event9">
               <i class="uil uil-briefcase-alt"></i>
               <h3>Tg bot</h3>
-              <label>Tg bot для Ithub с ответами на вопросы</label>
+              <label class="cusor-clas"
+                >Tg bot для Ithub с ответами на вопросы</label
+              >
             </div>
           </div>
         </section>

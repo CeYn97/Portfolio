@@ -382,6 +382,7 @@ h3 {
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
+  cursor: pointer !important;
 }
 .project-box > i {
   font-size: 50px;
@@ -412,6 +413,10 @@ h3 {
 .project-box:hover.project-box > label {
   color: var(--color-white);
   z-index: 2;
+}
+
+.cusor-clas {
+  cursor: pointer;
 }
 
 /* ----- CONTACT BOX ----- */
