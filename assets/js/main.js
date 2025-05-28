@@ -190,6 +190,33 @@ document.addEventListener("DOMContentLoaded", (event) => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event10");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/Frontend-Hackaton";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event11");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/Backend-Hackaton";
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const projectBoxes = document.querySelectorAll(".card-event12");
+  projectBoxes.forEach((box) => {
+    box.addEventListener("click", () => {
+      window.location.href = "https://github.com/CeYn97/ithub-assignment-react";
+    });
+  });
+});
+
 document.getElementById("downloadBtn").addEventListener("click", function () {
   const a = document.createElement("a");
 
