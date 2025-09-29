@@ -383,15 +383,33 @@ h3 {
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
   overflow: hidden;
   cursor: pointer !important;
+  padding: 20px;
+  text-align: center;
 }
 .project-box > i {
   font-size: 50px;
   color: #00b5e7;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+.project-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color-second);
   margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.3;
+  flex-shrink: 0;
 }
 .project-box label {
-  font-size: 15px;
+  font-size: 14px;
   color: #777;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 .project-box::after,
 .contact-info::after {
@@ -413,6 +431,27 @@ h3 {
 .project-box:hover.project-box > label {
   color: var(--color-white);
   z-index: 2;
+}
+
+/* Additional improvements for project boxes */
+.project-box * {
+  text-align: center;
+}
+
+.project-box h3,
+.project-box label {
+  display: block;
+  width: 100%;
+}
+
+/* Ensure proper spacing and alignment */
+.project-box {
+  gap: 8px;
+}
+
+.project-box > * {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cusor-clas {
@@ -628,6 +667,15 @@ footer {
   }
   .project-box {
     width: 80%;
+    padding: 15px;
+    height: 220px;
+  }
+  .project-box h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .project-box label {
+    font-size: 13px;
   }
 }
 
@@ -639,6 +687,20 @@ footer {
   }
   .project-box {
     width: 100%;
+    padding: 12px;
+    height: 200px;
+  }
+  .project-box h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .project-box label {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .project-box > i {
+    font-size: 40px;
+    margin-bottom: 10px;
   }
   .form-inputs {
     flex-direction: column;
